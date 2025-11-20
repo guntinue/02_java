@@ -69,12 +69,16 @@ public class BookMenu {
     public BookDTO inputBook(){
         System.out.print("도서 번호 입력 :");
         int bNo = sc.nextInt();
+
         System.out.print("도서 제목: ");
         String title = sc.next();
+
         System.out.print("도서 장르 (1:인문 / 2:자연과학 / 3:의료 / 4:기타) :");
         int category =  sc.nextInt();
+
         System.out.print("도서 저자: ");
         String author = sc.next();
+
         BookDTO book = new BookDTO(bNo, category, title, author);
 
         return book;

@@ -1,0 +1,6 @@
+#jdbc driver(comment-xml)
+#Mon Nov 03 11:37:00 KST 2025
+password=student
+driver=com.maria.jdbc.Driver
+user=student
+url=jdbc\:maria\://localhost\:3306/test

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>comments</comment>
+<entry key="password">student</entry>
+<entry key="driver">com.driver</entry>
+<entry key="user">student</entry>
+<entry key="url">https://localhost:8080/</entry>
+</properties>

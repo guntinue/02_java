@@ -42,7 +42,7 @@ public class BookManager {
                 return;
             }
         }
-        System.out.println("출조회한 도서가 존재하지 않음.");
+        System.out.println("조회한 도서가 존재하지 않음.");
     }
 
     public void displayAll() {

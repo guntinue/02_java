@@ -7,6 +7,6 @@ import java.util.Comparator;
 public class DescCategory implements Comparator<BookDTO> {
     @Override
     public int compare(BookDTO o1, BookDTO o2) {
-        return o2.getCategory()>o1.getCategory() ? -1 : (o2.getCategory() == o1.getCategory() ? 0 : 1);
+        return o2.getCategory() < o1.getCategory() ? -1 : (o2.getCategory() == o1.getCategory() ? 0 : 1);
     }
 }
